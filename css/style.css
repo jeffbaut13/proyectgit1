@@ -6,14 +6,14 @@
 .container{
     text-align: center;
     border: 1px solid black;
-    background-color: cadetblue;
+    background-color: rgb(95, 99, 160);
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 2rem;
-    background-color: cornsilk;
+    background-color: rgb(220, 255, 249);
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.323) ;
 }
 .logo{
