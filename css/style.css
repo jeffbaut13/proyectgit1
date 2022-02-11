@@ -1,7 +1,18 @@
+@font-face {
+    font-family: akuFont;
+    src: url(/fonts/Aku&Kamu.otf);
+}
+
+@font-face {    
+    font-family: centuryGothic;
+    src: url(/fonts/GOTHIC.TTF);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: centuryGothic;
 }
 body{
     min-height: 100vh;
@@ -12,74 +23,107 @@ body{
 
 .container{
     display: flex;
-    flex-direction: column;
-    border: 1px solid black;
-
-
-    background-color: rgb(95, 99, 160);
-    flex-grow: 1;
-
-
+    width: 100vw;
 }
-.header{
+.section-left{
+    width: 50%;
+    min-height: 100vh;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-area{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-box{   
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0px 2rem;
-    background-color: cornsilk;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.323) ;
+    border-radius: 5%;
+    box-shadow: -10px 5px 20px 5px rgba(0, 0, 0, 0.159);
+    height: 80%;
+    width: 85%;
+    margin: 1rem 0;
 }
-
-.post{
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo{
-    height: 10vh;
-    text-align: start;
-}
-
-.imagen-logo{
+.tab{
     height: 100%;
+    width: 70%;
+}
+.visual-content{
+    width: 30%;
+}
+.image-circle{
+    height: 80%;
+    position: relative;
+}
+.circle{
+    background: linear-gradient(90deg, rgba(3,207,218,1) 0%, rgba(1,109,112,1) 100%);
+    height: 280px;
+    width: 280px;
+    position: absolute;  
+    bottom: 0; 
+    border-radius: 50%; 
+}
+img[src="./assets/modelo-moldss.png"]{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+}
+.empty-box{
+    
+    height: 20%;
+}
+.section-right{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url(/assets/letras-moldss.png);
+    background-size: cover;
 }
 
-.menu a{
-   padding-left: 5rem;
-
-}
-
-footer{
-    height: 10vh;
-}
-.double-box{
+.main-image{
     display: flex;
-    width: 100%;
-    background-color: black;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
 }
-.logo-footer{
+.boton-buy{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 150px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    background: linear-gradient(90deg, rgba(28,103,169,1) 0%, rgba(38,34,98,1) 100%);
+    border-radius: 15px;
 }
-.box-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
-.nav-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-}
-.nav-footer a {
-    text-decoration: none;
+.boton-provi{
+    font-size: 1.5rem;
+    font-family: akuFont;
     color: white;
-    font-weight: bold;
+    text-decoration: none;
+}
+img[src="./assets/fondo.png"]{
+    width: auto;
+    height: auto;
+}
+.image-slide{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
