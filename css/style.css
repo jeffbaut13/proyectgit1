@@ -1,119 +1,126 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: centuryGothic;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: centuryGothic;
 }
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .container{
-    display: flex;
-    width: 100vw;
+  display: flex;
+  width: 100vw;
 }
 .section-left{
-    width: 50%;
-    min-height: 100vh;
+  width: 50%;
+  min-height: 100vh;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
 }
 .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0.2px rgb(20, 238, 0);
+  border-radius: 30px;
+}
+.logo:hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0.2px rgb(0, 81, 255);
+  border-radius: 30px;
 }
 .box-area{
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .content-box{   
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5%;
-    box-shadow: -10px 5px 20px 5px rgba(0, 0, 0, 0.159);
-    height: 80%;
-    width: 85%;
-    margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5%;
+  box-shadow: -10px 5px 20px 5px rgba(0, 0, 0, 0.159);
+  height: 80%;
+  width: 85%;
+  margin: 1rem 0;
 }
 .tab{
-    height: 100%;
-    width: 70%;
+  height: 100%;
+  width: 70%;
 }
 .visual-content{
-    width: 30%;
+  width: 30%;
 }
 .image-circle{
-    height: 80%;
-    position: relative;
+  height: 80%;
+  position: relative;
 }
 .circle{
-    background: linear-gradient(90deg, rgba(3,207,218,1) 0%, rgba(1,109,112,1) 100%);
-    height: 280px;
-    width: 280px;
-    position: absolute;  
-    bottom: 0; 
-    border-radius: 50%; 
+  background: linear-gradient(90deg, rgba(3,207,218,1) 0%, rgba(1,109,112,1) 100%);
+  height: 280px;
+  width: 280px;
+  position: absolute;  
+  bottom: 0; 
+  border-radius: 50%; 
 }
 img[src="./assets/modelo-moldss.png"]{
-    width: 250px;
-    height: auto;
-    position: absolute;
-    z-index: 100;
-    bottom: 0;
+  width: 250px;
+  height: auto;
+  position: absolute;
+  z-index: 100;
+  bottom: 0;
 }
 .empty-box{
-    
-    height: 20%;
+  
+  height: 20%;
 }
 .section-right{
-    width: 50%;
-    min-height: 100vh;
-    background-image: url(/assets/letras-moldss.png);
-    background-size: cover;
+  width: 50%;
+  min-height: 100vh;
+  background-image: url(/assets/letras-moldss.png);
+  background-size: cover;
 }
-
 .main-image{
-    display: flex;
-    justify-content: center;
-    height: 80vh;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  position: relative;
 }
 .boton-buy{
-    position: absolute;
-    top: 40%;
-    left: 10%;
-    width: 150px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(28,103,169,1) 0%, rgba(38,34,98,1) 100%);
-    border-radius: 15px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(28,103,169,1) 0%, rgba(38,34,98,1) 100%);
+  border-radius: 15px;
 }
 .boton-provi{
-    font-size: 1.5rem;
-    font-family: akuFont;
-    color: white;
-    text-decoration: none;
+  font-size: 1.5rem;
+  font-family: akuFont;
+  color: white;
+  text-decoration: none;
 }
 img[src="./assets/fondo.png"]{
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 .image-slide{
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
